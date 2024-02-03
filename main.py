@@ -5,7 +5,7 @@ from config.models import Teacher, Student, Discipline, Group
 from config.db import session
 
 """
-python main.py -a remove -m Teacher -n 'Elton Pol'                     - створення вчителя
+python main.py -a create -m Teacher -n 'Elton Pol'                     - створення вчителя
 python main.py -a  list -m Teacher                                     - показати всіх вчителів
 python main.py -a update -m Teacher --id 5 -n 'пан Роман Бортонович'   - оновити дані вчителя з id=5 
 python main.py -a remove -m Teacher --id 6                             - видалити вчителя з id=6
